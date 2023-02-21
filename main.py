@@ -106,8 +106,8 @@ class HeaderWindow(Screen):
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">        
     <title>Ile-Segal - %s</title>        
-    <link href="../.needs/bootstrap.min.css" rel="stylesheet">
-    <link href="../.needs/clean-blog.min.css" rel="stylesheet">        
+    <link href="../needs/bootstrap.min.css" rel="stylesheet">
+    <link href="../needs/clean-blog.min.css" rel="stylesheet">        
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 </head>
 
