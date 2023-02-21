@@ -261,8 +261,8 @@ def header():
         frame_f(1)
 
         with open('temp/' + 'post.html','w') as fichier:    #temp
-            bootstrap_css='../.needs/bootstrap.min.css'
-            clean_blog='../.needs/clean-blog.min.css'
+            bootstrap_css='../needs/bootstrap.min.css'
+            clean_blog='../needs/clean-blog.min.css'
             img='img/'+name_alea+'head.webp'
             fichier.write("""<!DOCTYPE html>
 <html>
@@ -680,7 +680,7 @@ def restart():
         os.execv(sys.argv[0], sys.argv)
         
 def aide():
-    change_dir('.needs/')
+    change_dir('needs/')
     open_new_tab('aide.html')
     dir_change()
     
